@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Leoon
+        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            ul {
+                list-style-type: none;
+                display: inline;
+            }
+
+
+
+            .a {
+
+                display: inline-flex; 
+                position: sticky; 
+                background-color: white; 
+                width:100%; 
+                padding: 0px 0px 0px 0px; 
+                Margin: 0px 0px 0px 0px;
+            }
+
+            #leoon{
+
+                padding-right: 75px;
+                padding-left: 0px;
+            }
+
+            #searchbox1{
+
+
+                border-radius: 5px; 
+                border-color:whitesmoke; 
+                height: 30px; 
+                width: 300px; 
+                margin-top: 15px;
+            }
+
+            .column {
+                    float: left;
+                    width: 23%;
+                    padding: 0px 10px 0px 10px ;
+                    }
+
+                    /* Remove extra left and right margins, due to padding in columns */
+            .row {margin: 10px 10px 10px 10px;
+                        padding:  10px 10px 10px 10px;
+
+                    }
+
+                    /* Clear floats after the columns */
+            .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                    }
+
+
+
+
+                    /* Style the counter cards */
+            .card {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+
+                    transition: 0.3s;
+                    margin: 10px,10px;
+                    padding: 10px,10px,10px,10px;
+                    text-align: center;
+                    background-color: white;
+                    }
+                    /* Responsive columns - one column layout (vertical) on small screens */
+                    @media screen and (max-width: 600px) {
+            .column {
+                    width: 100%;
+                    display: block;
+                    margin-bottom: 00px;
+                    }
+                    }
+            .card > img{
+                width: 100%;
+            }
+
+            .d{
+                width: 30%;
+                padding: 0px 20px 0px 20px;
+                
+            }
+ 
+            .d:hover{
+                opacity:0.7;
+            }
+
+
+            button[type="submit"] {
+                width: 100px;
+                height: 30px;
+                color: white;
+                background-color: gray;
+               
+
+                }
+
+            button[type="submit"]:hover {
+                opacity: 1;
+                }
+
+            button[type="submit"]:focus,
+            input[type="search"]:focus {
+                box-shadow: 0 0 3px 0 #1183d6;
+                border-color: #1183d6;
+                outline: none;
+                }
+
+
+            @media only screen and (max-width: 768px) {
+                /* For mobile phones: */
+                [class*="column"] {
+                    width: 100%;
+                }
+                }   
+
+            @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="d"] {
+                width: 100%;
+            }
+            }
+
+            @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="e"] {
+                width: 100%;
+            }
+            }
+
+            @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="a"] {
+                width:fit-content ;
+            }
+            }
+        </style>
+
+<div>
+    <nav>
+        <ul  class="a" >
+            <li>
+                <img  id="leoon" src="leoon.png">
+            </li>
+
+            <li>
+                <img src="location.png">
+            </li>
+
+            <li>
+                <img src="chicken.png">
+            </li>
+
+            <li>
+                <img src="mutton.png">
+            </li>
+
+            <li>
+                <img src="fish.png">
+            </li>
+            
+            <li>
+                <input id="Searchbox1" type="text" placeholder="Search Items">
+            </li>  
+            
+            <li>
+                <img  id="" src="discount.png" style="padding-left: 120px;">
+            </li>
+
+            <li>
+                <img src="account.png">
+            </li>
+
+            <li>
+                <img src="order.png">
+            </li>
+
+            <li>
+                <h3 style="color:gray; padding:0px 20px 0px 20px;"> About</h3>
+            </li>
+
+            <li>
+                <h3 style="color:gray"> Support</h3>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+
+
+
+    </head>
+    <body>
+
+        <img src="bg0.png">
+        <Section>
+            <container>
+            <div>
+            <img src="poster.jpg" style="width:100%">
+            </div>
+            </container>
+        </Section>
+        
+            <h2> Trending Now</h2>
+        
+        
+        
+        <div class="row">
+            
+            <div Class="column">    
+                <div  class="card"  >
+                    <img src="c1.png" >
+                    <div class="container">
+                      <P style="margin:0% 0% 0% 0%; padding-top: 0px;"> <b>KadakNath Chicken Curry Cut 800g </b></P>
+                        <p>High Levels of Animo Acid out of whi </p>
+                        <button>800 Gram</button>
+                        <br>
+                        <h4><b style="color:green; ">Rs:789</b> Rs:<s>880</s></h4>
+                        <button style="background-color:brown; border:none; height:30px; border-radius: 5px; align-content:right;"> Add To Cart</button> 
+                                              
+                        <hr>
+                            <p>Delivery in 1 Hour</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div Class="column">    
+                <div  class="card"  >
+                    <img src="c2.jpg" >
+                    <div class="container">
+                      <P style="margin:0% 0% 0% 0%; padding-top: 0px;"> <b>KadakNath Chicken Curry Cut 800g </b></P>
+                        <p>High Levels of Animo Acid out of whi </p>
+                        <button>800 Gram</button>
+                        <br>
+                        <h4><b style="color:green; ">Rs:789</b> Rs:<s>880</s></h4>
+                        <button style="background-color:brown; border:none; height:30px; border-radius: 5px; align-content:right;"> Add To Cart</button> 
+                                              
+                        <hr>
+                            <p>Delivery in 1 Hour</p>
+                    </div>
+                </div>
+            </div>
+
+            <div Class="column">    
+                <div  class="card"  >
+                    <img src="c3.jpg" >
+                    <div class="container">
+                      <P style="margin:0% 0% 0% 0%; padding-top: 0px;"> <b>KadakNath Chicken Curry Cut 800g </b></P>
+                        <p>High Levels of Animo Acid out of whi </p>
+                        <button>800 Gram</button>
+                        <br>
+                        <h4><b style="color:green; ">Rs:789</b> Rs:<s>880</s></h4>
+                        <button style="background-color:brown; border:none; height:30px; border-radius: 5px; align-content:right;"> Add To Cart</button> 
+                                              
+                        <hr>
+                            <p>Delivery in 1 Hour</p>
+                    </div>
+                </div>
+            </div>
+
+            <div Class="column">    
+                <div  class="card"  >
+                    <img src="c4.jpg" >
+                    <div class="container">
+                      <P style="margin:0% 0% 0% 0%; padding-top: 0px;"> <b>KadakNath Chicken Curry Cut 800g </b></P>
+                        <p>High Levels of Animo Acid out of whi </p>
+                        <button>800 Gram</button>
+                        <br>
+                        <h4><b style="color:green; ">Rs:789</b> Rs:<s>880</s></h4>
+                        <button style="background-color:brown; border:none; height:30px; border-radius: 5px; align-content:right;"> Add To Cart</button> 
+                                              
+                        <hr>
+                            <p>Delivery in 1 Hour</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <h2> Oder By Category</h2>
+        <div style="display: inline-flex;">
+
+            <div class="d">
+                <img src="d1.png" style="width: 100%;">
+                <div style="display: inline-flex;">
+                    <div style="width: 50%; padding-right: 240px;">
+                        <a href="" style="color: gray;">For Regular Lover</a>
+                        <h3>Chicken</h3>
+                    </div>
+
+                     <div style="width: 50%; text-align: right; padding-top: 46px;">
+                        <button style="background-color:brown; border:none; height: 30px; border-radius: 5px;"> Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d">
+                <img src="d2.png" style="width: 100%;">
+                <div style="display: inline-flex;">
+                    <div style="width: 50%; padding-right: 240px;">
+                        <a href="" style="color: gray;">Special Occasions</a>
+                        <h3>Mutton</h3>
+                    </div>
+
+                     <div style="width: 50%; text-align: right; padding-top: 46px;">
+                        <button style="background-color:brown; border:none; height: 30px; border-radius: 5px;"> Order Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d">
+                <img src="d3.png" style="width: 100%;">
+                <div style="display: inline-flex;">
+                    <div style="width: 50%; padding-right: 240px;">
+                        <a href="" style="color: gray;">Sea Food Lover</a>
+                        <h3>Fish</h3>
+                    </div>
+
+                     <div style="width: 50%; text-align: right; padding-top: 46px;">
+                        <button style="background-color:brown; border:none; height: 30px; border-radius: 5px;"> Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div style="width:100%; display: inline-flex;">
+            <div class="e" style="width:45%; padding: 0px 40px 0px 40px;">
+            <h3>LEOON-ORDER FRESH MEAT ONLINE</h3>
+            <p>
+                Leoon Online Meat Shop. your number one source for all meat product.
+                We're dedicated to providing you the very best of meat and household items to your doorstep,
+                with an emphasis on Shop on the go and buy groceries, fresh meat.
+                We get it all delivered at your doorstep within hours.
+                We hope you enjoy our services as much as we enjoy offering them to you.
+                If you have any questions or comments, please don't hesitate to contact us.
+            </p>
+                
+                <br>
+                
+            
+            <p>Privacy Policies| Terms & Conditions| Career| Support| Contact us</p>
+
+            <p>Refund & Cancellation| Sitemap| FAQ| Site Map| Contact us</p>
+            </div>
+
+
+
+            <div class="e" style="width:40%; padding:40px 0px 30px 80px;">
+                <h3>Get in touch
+                </h3>
+                <input type="search" placeholder="Example@yourmail.com" style="height: 10%; width: 70%;">
+                <button type="submit"> Subscribe</button>
+                <br>
+                <img src="e1.png" style="padding: 10px 0px 0px 0px;">
+                <p>Mail us: care@leoon.in
+                    <br>Business@leoon.in
+                    </p>
+                <div style="display:inline-flex; ">
+                <img src="google.png" style="padding:10px 10px 10px 10px;" >
+                <img src="apple.png " style="padding:10px 10px 10px 10px;">
+                </div>
+            </div>
+        </div>
+        
+        <footer style="background-color:rgb(237, 179, 179); text-align:center;">
+
+            <h4 style="padding:15px 5px 0px 5px; margin:5px 5px 0px 5px;">© 2022 LEOON FOODS</h4>
+            <h6 style="padding:0px 5px 5px 5px; margin:0px 5px 5px 5px;">Powered By Mind You Infotech</h6>
+        </footer>
+
+    </body>
+</html>
